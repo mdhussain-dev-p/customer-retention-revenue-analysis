@@ -1,0 +1,19 @@
+# Local source data and generated database
+data/raw/*
+!data/raw/README.md
+data/retail.db
+data/retail.db-wal
+data/retail.db-shm
+
+# Local Python environments and caches
+.venv/
+venv/
+__pycache__/
+.pytest_cache/
+*.py[cod]
+
+# Local editor and operating-system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
