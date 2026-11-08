@@ -1,0 +1,36 @@
+Package validation record
+Date: 8 November 2026
+Python used for package checks: 3.13.5
+
+Automated tests: [32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m.[0m[32m                                               [100%][0m
+[32m[32m[1m26 passed[0m[32m in 1.39s[0m[0m
+Python compilation: passed
+Python comment tokens: 0
+Python docstrings: 0
+Excel-to-SQLite cleaning integration: passed
+End-to-end miniature workbook analysis: passed
+Generated report and chart checks: passed
+Full UCI Online Retail II workbook: not downloaded in this build environment
+Reason: the source workbook is large and is intentionally downloaded by scripts/download_data.py on the user's computer
+Full-data reports and charts: generated after the UCI workbook is downloaded and the project is run
+
+The test suite uses small, controlled workbook examples to test cleaning decisions
+and the end-to-end workflow. Its results are not presented as findings from the
+full UCI dataset.
+
+Full UCI dataset execution on Windows user environment
+Date: 8 November 2026
+Python: 3.13.7
+pandas: 3.1.1
+numpy: 2.5.4
+matplotlib: 3.11.2
+openpyxl: 3.1.5
+pytest: 9.2.0
+Source rows imported: 1,067,371
+UCI listed rows: 1,067,371
+Source row count matched: True
+Rows retained after cleaning: 1,027,017
+Customers analysed: 5,861
+Complete months reported: 24
+Full-data analysis: Passed
+Automated tests: 26 passed

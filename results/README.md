@@ -1,0 +1,1 @@
+The CSV tables and generated findings are created by `python scripts/run_project.py`. They are based on the workbook present in `data/raw/`.\n

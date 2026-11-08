@@ -1,0 +1,14 @@
+Customer retention and revenue analysis completed.
+Completed at: 2026-11-08T04:54:13
+Workbook: online_retail_II.xlsx
+Database action: Imported the workbook into SQLite
+Source rows: 1,067,371
+UCI listed rows: 1,067,371
+Source row count matches: True
+Rows retained after cleaning: 1,027,017
+Customers analysed: 5,861
+Complete months reported: 24
+Cleaning log: docs/cleaning_log.md
+Findings: docs/findings.md
+Tables: results/
+Charts: figures/

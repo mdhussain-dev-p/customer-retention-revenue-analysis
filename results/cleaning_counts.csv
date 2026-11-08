@@ -1,0 +1,7 @@
+step,rows_in,rows_removed,rows_flagged,rows_out,decision
+Missing customer IDs,1067371,0,243007,1067371,Retained for revenue summaries; excluded from customer-level analysis.
+Cancellation invoices,1067371,0,19494,1067371,Separated into a cancellation table and used as negative adjustments.
+Non-product stock codes,1067371,0,5752,1067371,Separated from product lines and excluded from product analysis.
+"Zero, negative or missing unit prices",1067371,6207,6207,1061164,Removed because a valid line needs a positive unit price.
+Exact duplicate rows,1061164,34147,34147,1027017,One copy of each exact transaction row was retained.
+Unparseable invoice dates,1027017,0,0,1027017,Removed because time-based analysis requires a valid date.

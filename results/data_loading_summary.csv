@@ -1,0 +1,2 @@
+workbook,database_action,source_rows,uci_listed_rows,row_count_matches_uci_record,cleaned_rows,customers_analysed,complete_months_reported,rfm_reference_date
+online_retail_II.xlsx,Imported the workbook into SQLite,1067371,1067371,True,1027017,5861,24,Day after the last valid transaction date in the source table
